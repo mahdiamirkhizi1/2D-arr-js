@@ -1,4 +1,4 @@
-const twoD_arr=(data ,newLine=false )=>{
+const twoD_arr=(data)=>{
   let newData=  data.split("\n").map(item=>item.split(","))
     console.log(newData);
     // document.write(newData)
